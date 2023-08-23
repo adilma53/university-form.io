@@ -1,0 +1,79 @@
+.navbar {
+    border-bottom: 1px solid #cecece;
+    display: flex;
+    height: 50px;
+    /* styles copied from figma */
+
+
+    background: #F3F3F3;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+
+
+    color: #1E1E1E;
+    font-family: Inter;
+
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.home {
+    margin-left: 50%;
+
+    /* typo */
+    color: #737373;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.about {
+    margin-left: 5%;
+
+    color: #737373;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.login {
+    margin-left: 5%;
+
+
+    border-radius: 4px;
+    color: #F3F3F3;
+    background-color: black;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 25px;
+
+
+
+
+    width: 85px;
+    height: 40px;
+
+}
+
+.signup {
+    margin-left: 5%;
+
+    border-radius: 4px;
+    color: #F3F3F3;
+    background-color: black;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 25px;
+
+
+
+
+    width: 85px;
+    height: 40px;
+}
