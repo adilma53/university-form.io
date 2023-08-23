@@ -12,7 +12,7 @@ function App()
 
                 {/* logo */}
                 <a href="#">
-                    <ul class="flex items-center" >
+                    <ul class="flex items-center  space-x-1" >
                         <li>
                             <div class="mr-5px text-4xl font-bold ">LOGO</div>
                         </li>
@@ -30,25 +30,28 @@ function App()
                     </svg>
                 </button> */}
 
-                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <div class="flex items-center mx-10 border-solid	" >
+                    <ul class="flex items-center font-mono font-medium text-2xl space-x-5">
                         <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                            <a href="#" class="hover:text-gray-500">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                            <a href="#" class="hover:text-gray-500">About</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                            <a href="#" class="hover:text-gray-500">Contact</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+                            {/* <div class="border-solid border-2 border-sky-500">Login</div> */}
+
+                            <button class="bg-gray-950 text-white hover:bg-gray-600 rounded font-bold py-1.5 px-3 ml-10" >Login</button>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                            <button class="bg-gray-950 text-white hover:bg-gray-600 rounded font-bold py-1.5 px-3">Signup</button>
                         </li>
                     </ul>
                 </div>
+
             </div >
         </nav >
 
