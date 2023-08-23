@@ -15,6 +15,7 @@ function App()
                         <li>
                             <div class="mr-5px text-4xl font-bold ">LOGO</div>
                         </li>
+
                         <li>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1024px-Location_dot_black.svg.png" class="h-8 mr-3" alt="Flowbite Logo" />
                         </li>
@@ -34,9 +35,11 @@ function App()
                         <li>
                             <a href="#" class="hover:text-gray-500">Home</a>
                         </li>
+
                         <li>
                             <a href="#" class="hover:text-gray-500">About</a>
                         </li>
+
                         <li>
                             <a href="#" class="hover:text-gray-500">Contact</a>
                         </li>
