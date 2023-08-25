@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -26,20 +26,15 @@ function Navbar() {
         <div class="flex items-center mx-10 border-solid	">
           <ul class="flex items-center font-mono font-medium text-2xl space-x-5">
             <li>
-              <a href="/" class="hover:text-gray-500">
+              <Link to="/" class="hover:text-gray-500">
                 Home
-              </a>
+              </Link>
             </li>
-            {/* <a href="./About" class="hover:text-gray-500">
-              About
-            </a> */}
-            <Link to='/about'>
-                About
-            </Link>
+            <Link to="/about">About</Link>
             <li></li>
 
             <li>
-              <a href="/" class="hover:text-gray-500">
+              <a href="/contact" class="hover:text-gray-500">
                 Contact
               </a>
             </li>
