@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'gigachad' : ['Cinzel', 'serif'],
+        '3adli' : ['ADLaM Display', 'cursive'],
       }
     },
   },

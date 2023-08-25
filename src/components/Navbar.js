@@ -40,12 +40,12 @@ function Navbar() {
             </li>
             <li>
               <button class="bg-gray-950 text-white hover:bg-gray-600 rounded font-bold py-1.5 px-3 ml-10">
-                Login
+                <Link to="/login">login</Link>
               </button>
             </li>
             <li>
               <button class="bg-gray-950 text-white hover:bg-gray-600 rounded font-bold py-1.5 px-3">
-                Signup
+                <Link to="/signup">Signup</Link>
               </button>
             </li>
           </ul>
