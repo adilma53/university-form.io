@@ -34,9 +34,9 @@ function Navbar() {
             <li></li>
 
             <li>
-              <a href="/contact" class="hover:text-gray-500">
+              <Link to="/contact" class="hover:text-gray-500">
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
               <button class="bg-gray-950 text-white hover:bg-gray-600 rounded font-bold py-1.5 px-3 ml-10">

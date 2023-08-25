@@ -7,8 +7,11 @@ module.exports = {
     extend: {
       fontFamily:{
         'gigachad' : ['Cinzel', 'serif'],
-        '3adli' : ['ADLaM Display', 'cursive'],
-      }
+        '3adli' : ['ADLaM Display', 'sans-serif'],
+      },
+      backgroundImage: {
+        'book': "url('/src/Assets/book-pic.jpg')",
+      },
     },
   },
   plugins: [],
