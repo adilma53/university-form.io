@@ -24,15 +24,14 @@ function Navbar() {
         </a>
 
         <div class="flex items-center mx-10 border-solid	">
-          <ul class="flex items-center font-mono font-medium text-2xl space-x-5">
+          <ul class="flex items-center font-Rbt text-2xl space-x-5">
             <li>
               <Link to="/" class="hover:text-gray-500">
                 Home
               </Link>
             </li>
-            <Link to="/about">About</Link>
-            <li></li>
-
+            <Link to="/about" class="hover:text-gray-500">About</Link>
+            
             <li>
               <Link to="/contact" class="hover:text-gray-500">
                 Contact

@@ -8,6 +8,7 @@ module.exports = {
       fontFamily:{
         'gigachad' : ['Cinzel', 'serif'],
         '3adli' : ['ADLaM Display', 'sans-serif'],
+        'Rbt' : ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
         'book': "url('/src/Assets/book-pic.jpg')",
